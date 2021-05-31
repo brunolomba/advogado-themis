@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato - Themis Advogados</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="src/styles/styles.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body class="contato">
+		
+	<!-- Ínicio Container -->
+		<div id="container">
+
+	<!-- Ínicio Menu -->		
+			<div id="menu">
+				<h1 id="logo">Themis Advogados</h1>
+
+					<ul id="navegacao">
+						<li><a id="home" href="index.html">HOME</a></li>
+						<li><a id="areas" href="areas-trabalhista.html">ÁREAS</a></li>
+						<li><a id="sobre" href="sobre-homem.html">SOBRE</a></li>
+						<li><a id="contato" href="contato.html">CONTATO</a></li>
+					</ul>
+			</div><!-- Fim Menu -->
+
+	<!-- Ínicio Conteúdo -->
+			<div id="conteudo">
+				<div id="banner">
+					<img src="src/images/banner-areas.png">
+				</div>
+
+				<div class="conteudo-contato">
+					<div>
+						<h2>MAPA</h2>
+						<hr>
+						<img src="src/images/mapa.png">
+						<h3>Escritória 1</h3>
+							<p>
+								Rua Benedito de Almeida Bueno,<br>
+								N* 530, Sala 45,<br>
+								CENTRO - ATIBAIA /SP
+							</p>
+					</div>
+
+					<div>
+						<img src="src/images/mapa.png">
+						<h3>Escritória 2</h3>
+							Rua Alameda dos Anjos,<br>
+							N* 530, Sala 45,<br>
+							CENTRO - São Paulo /SP
+					</div>
+				</div>
+
+				<div class="conteudo-contato direita">
+					<div>
+					<h2>Formulário</h2>
+					<hr>
+					<form>
+						<div>
+							<label for="nome">Nome</label>
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+						</div>
+
+						<div>
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" placeholder="Digite seu email...">
+						</div>
+
+						<div>
+							<label for="telefone">Telefone</label>
+							<input type="text" name="telefone" id="telefone" placeholder="(xx) X XXXX-XXXX">
+						</div>
+
+						<div>
+							<label for="estados">Estado</label>
+							<select>
+								<option value="sp" name="estado" id="sp">SP</option>
+								<option value="rj" name="estado" id="rj">RJ</option>
+								<option value="pr" name="estado" id="pr">PR</option>
+								<option value="rs" name="estado" id="rs">RS</option>
+								<option value="mt" name="estado" id="mt">MT</option>
+								<option value="mg" name="estado" id="mg">MG</option>
+							</select>
+						</div>
+
+						<div>
+							<label for="estado-civil">Estado Civil</label>
+							<input type="radio" name="estado-civil" value="solteiro" id="solteiro">Solteiro
+							<input type="radio" name="estado-civil" value="casado" id="casado">Casado
+							<input type="radio" name="estado-civil" value="divorciado" id="divorciado">Divorciado
+						</div>
+
+						<div>
+							<label for="sexo">Sexo</label>
+							<input type="radio" name="sexo" value="M" id="masculino">Masculino
+							<input type="radio" name="sexo" value="F" id="feminino">Feminino<br>
+							<input type="radio" name="sexo" value="O">Outros
+							<input type="text" name="sexo" placeholder="específique no campo abaixo seu sexo">
+						</div>
+
+						<div>
+							<label for="area">Área do Direito</label>
+							<select>
+								<option value="trabalhista" name="area">Trabalhista</option>
+								<option value="criminal" name="area">Criminal</option>
+								<option value="familiar" name="area">Familiar</option>
+							</select>
+						</div>
+
+						<div>
+							<label for="assunto">Assunto / Resumo</label>
+							<textarea name="assunto" placeholder="Digite um breve resumo do que está acontecendo e o que precisa, para facilitar quando entrarmos em contato">
+							</textarea>
+
+							<input type="submit" name="enviar" id="enviar">
+						</div>
+
+					</form>
+					</div>
+				</div>
+
+			</div><!-- Fim Conteúdo -->
+
+		</div><!-- Fim Container -->
+
+	<!-- Ínicio Rodapé -->
+			<div id="bg-rodape">
+				<div id="rodape">
+					<div class="conteudo-rodape">
+						<h3>Mapa do site</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="areas-trabalhista.html">Áreas</a></li>
+							<li><a href="sobre-homem.html">Sobre</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+						
+					</div>
+
+					<div class="conteudo-rodape">
+						<h3>Áreas</h3>
+						<ul>
+							<li><a href="areas-trabalhista.html">Trabalhista</a></li>
+							<li><a href="areas-criminal.html">Criminal</a></li>
+							<li><a href="areas-familiar.html">Familiar</a></li>
+						</ul>
+						
+					</div>
+
+					<div class="conteudo-rodape rodape-contato">
+						<h3>Contato</h3>
+						<ul>
+							<li><a href="">Telefone:<br>
+							(11) 9 9897-9695</a></li>
+							<br>
+							<li><a href="">Email:<br>
+							advogados@justica.com.br</a></li>
+						</ul>
+						
+					</div>
+
+					<img src="src/images/logo-rodape.png">
+
+					<div id="copyright">
+							Copyright. Todos os direitos reservados.
+					</div>
+				</div>
+			</div><!-- Fim Rodapé -->	
+
+	</body>
+</html>

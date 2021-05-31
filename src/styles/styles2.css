@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Cinzel', serif;
+	background: url(../images/bg-menu.png) repeat-x left top;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #A17500;
+}
+
+a:hover {
+	color: #F0C8A4;
+}
+
+a:visted, a:active {
+	color: #fff;
+}
+
+#container {
+	width: 960px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
+/* Menu * * * * * * * * * * * * * * * * */
+#menu {
+	height: 80px;
+}
+
+h1{
+	margin-top: 10px;
+	float: left;
+}
+
+#logo {
+	width: 265px;
+	height: 60px;
+	background: url(../images/logo-menu.png) no-repeat left center;
+	text-indent: -3000px;
+}
+
+#navegacao li {
+	line-height: 80px;
+	position: relative;
+	left: 330px;
+	float: left;
+}
+
+#navegacao li a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	margin: 0 15px;
+}
+
+body.home #navegacao a#home,
+body.areas #navegacao a#areas,
+body.sobre #navegacao a#sobre,
+body.contato #navegacao a#contato {
+	color: #fff;
+	background: url(../images/marcador-menu.png) no-repeat center bottom;
+	border-bottom: 1px solid #fff;
+}
+
+/* Conteúdo Home * * * * * * * * * * * * * * * */
+#banner {
+	margin-top: 15px;
+}
+
+.conteudo {
+	width: 268px;
+	border: 1px solid #F0C8A4;
+	margin: 15px 0;
+	padding: 20px;
+	float: left;
+}
+
+.conteudo-direita {
+	margin: 15px 0 15px 15px;
+}
+
+.conteudo p {
+	color: #90542a;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 20px;
+	color: #b3673b;
+}
+
+.conteudo a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #b3673b;
+	margin: 10px 0;
+	float: right;
+}
+
+/* Mouse Hover e Atived * * * * * * * * * */
+.efeitos-mouse:hover {
+	background-color: #E8D7AB;
+}
+
+.conteudo a:hover {
+	color: red;
+}
+
+.areas .conteudo-areas a:hover {
+	color: red;
+}
+/*
+.efeitos-mouse:active {
+	background-color: #F0C8A4;
+}
+*/
+
+/* Conteúdo Áreas * * * * * * * * * * * * */
+.areas #banner {
+	height: 200px;
+	margin-top: 15px;
+}
+
+.conteudo-areas {
+	width: 268px;
+	border: 1px solid #F0C8A4;
+	margin: 15px 0;
+	padding: 0 20px 20px 20px;
+	float: left;
+}
+
+.areas .conteudo-direita {
+	width: 592px;
+	background-color: #E8D7AB; 
+}
+
+.conteudo-areas a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b3673b;
+	margin-top: 20px;
+	display: block;
+}
+
+.areas .conteudo-direita h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.conteudo-direita img {
+	width: 100%;
+}
+
+/* Conteúdo Sobre * * * * * * * * * * * * */
+.sobre .conteudo-direita {
+	width: 592px;
+	background-color: #E8D7AB; 
+}
+
+/* Conteúdo Contato Mapa * * * * * * * * * * */
+.conteudo-contato {
+	width: 438px;
+	border: 1px solid #F0C8A4;
+	padding: 20px;
+	margin: 15px 0 20px;
+	float: left;
+}
+
+.contato .direita {
+	background-color: #E8D7AB; 
+}
+
+.conteudo-contato img {
+	width: 100%;
+	border: 1px solid #b3673b;
+	margin: 20px 0 0 0;
+}
+
+.conteudo-contato h3 {
+	font-size: 15px;
+	color: #b3673b;
+}
+/* Conteúdo Contato Fomulário * * * * * * * */
+label {
+	display:block;
+	padding-top: 20px;
+	font-weight: bold;
+	color: #b3673b;
+}
+
+/* pode não funcionar em navegadores antigos * */
+input[type="text"] {
+	width: 97%;
+	padding: 5px;
+}
+
+textarea {
+	width: 100%;
+	height: 201px;
+}
+
+#enviar {
+	background-color: #b3673b;
+	font-family: 'Cinzel';
+	font-size: 13px;
+	font-weight: bold;
+	color: #F0C8A4;
+	border: 1px solid #b3673b;
+	padding: 5px 25px;
+	cursor: pointer;
+	float: right;
+}
+
+/* Rodapé * * * * * * * * * * * * * * * * */
+#bg-rodape {
+	height: 200px;
+	background-color: #3f2910;
+	clear: both;
+}
+
+#rodape {
+	width: 960px;
+	max-height: 250px;
+	margin: 0 auto;
+}
+
+h3 {
+
+	font-size: 15px;
+	color: #A17500;
+}
+
+#rodape a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.conteudo-rodape {
+	width: 20%;
+	height: 200px;
+	margin: 35px 0 0 0;
+	float: left;
+}
+
+#rodape img {
+}
+
+#copyright {
+	clear: both;
+
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+
+}
